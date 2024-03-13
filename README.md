@@ -30,7 +30,7 @@ python
 # Register Number: 212222230130
 
 ## Input Grayscale Image and Color Image
-
+```
 import cv2
 import matplotlib.pyplot as plt
 gray_image = cv2.imread("f1.jpeg")
@@ -39,9 +39,9 @@ cv2.imshow("Gray Image",gray_image)
 cv2.imshow("Colour Image",color_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ## Histogram of Grayscale Image and any channel of Color Image
-
+```
 import numpy as np
 import cv2
 Gray_image = cv2.imread("f1.jpeg")
@@ -65,9 +65,9 @@ plt.ylabel("Pixel Count")
 plt.stem(color_hist)
 plt.show()
 cv2.waitKey(0)
-
+```
 ## Histogram Equalization of Grayscale Image.
-
+```
 
 import cv2
 gray_image = cv2.imread("f2.jpeg",0)
@@ -78,7 +78,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 
-
+```
 
 
 ## Output:
@@ -88,6 +88,7 @@ cv2.destroyAllWindows()
 ![310128065-75f31777-0817-4095-9fd7-69c0ca648ccb](https://github.com/Sangavi-suresh/Histogram-of-an-images/assets/118541861/fef5d97a-5ef6-4f63-bf39-d992aaeae026)
 
 ### Histogram of Grayscale Image and any channel of Color Image
+
 ![310130187-56e42ee0-c87c-484c-84f0-e5bdf132b6b6](https://github.com/Sangavi-suresh/Histogram-of-an-images/assets/118541861/8409f9c4-fc55-4049-8bfd-9327bc1ffa78)
 
 ![310130528-cbbb1b5e-ad0d-46b9-9ad6-6e1ee954263c](https://github.com/Sangavi-suresh/Histogram-of-an-images/assets/118541861/8f366c96-9f77-4615-aeb0-348e6a70df80)
